@@ -1,1 +1,1 @@
-2 h GitHub och installation av projekt
+2.5 h GitHub och installation av projekt
