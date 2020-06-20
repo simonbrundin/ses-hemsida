@@ -1,19 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AppDownloadBanner />
+    <IntroVideo />
+    <SESDescription />
+    <StudioPadel />
+    <Contact />
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppDownloadBanner from "./components/AppDownloadBanner.vue";
+import IntroVideo from "./components/IntroVideo.vue";
+import SESDescription from "./components/SESDescription.vue";
+import StudioPadel from "./components/StudioPadel.vue";
+import Contact from "./components/Contact.vue";
+import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
+    AppDownloadBanner,
+    IntroVideo,
+    SESDescription,
+    StudioPadel,
+    Contact,
     HelloWorld
   }
-}
+};
 </script>
 
 <style>
