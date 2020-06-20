@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <AppDownloadBanner />
+    <Logo />
     <IntroVideo />
     <SESDescription />
     <StudioPadel />
@@ -11,6 +12,7 @@
 </template>
 
 <script>
+import Logo from "./components/Logo.vue";
 import AppDownloadBanner from "./components/AppDownloadBanner.vue";
 import IntroVideo from "./components/IntroVideo.vue";
 import SESDescription from "./components/SESDescription.vue";
@@ -20,6 +22,7 @@ import Contact from "./components/Contact.vue";
 export default {
   name: "App",
   components: {
+    Logo,
     AppDownloadBanner,
     IntroVideo,
     SESDescription,
