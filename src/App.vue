@@ -16,7 +16,6 @@ import IntroVideo from "./components/IntroVideo.vue";
 import SESDescription from "./components/SESDescription.vue";
 import StudioPadel from "./components/StudioPadel.vue";
 import Contact from "./components/Contact.vue";
-import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "App",
@@ -25,8 +24,7 @@ export default {
     IntroVideo,
     SESDescription,
     StudioPadel,
-    Contact,
-    HelloWorld
+    Contact
   }
 };
 </script>
