@@ -7,5 +7,7 @@ export default {};
 </script>
 
 <style scoped>
-height: 0;
+#AppDownloadBanner {
+  height: 0;
+}
 </style>
