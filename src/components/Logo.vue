@@ -1,5 +1,5 @@
 <template>
-  <Logo></Logo>
+  <div id="Logo"><img src="../assets/SES-banner.jpg" alt="" /></div>
 </template>
 
 <script>
@@ -8,4 +8,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+img {
+  width: 100vw;
+}
+</style>

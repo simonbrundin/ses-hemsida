@@ -6,8 +6,6 @@
     <SESDescription />
     <StudioPadel />
     <Contact />
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
@@ -27,18 +25,21 @@ export default {
     IntroVideo,
     SESDescription,
     StudioPadel,
-    Contact
-  }
+    Contact,
+  },
 };
 </script>
 
 <style>
+body {
+  margin: 0;
+  background: #0f110e;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
