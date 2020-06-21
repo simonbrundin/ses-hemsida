@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="beskrivning">
     <h2>Vad är SES?</h2>
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis impedit
@@ -16,4 +16,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+#beskrivning {
+  margin: 20px 20px;
+}
+</style>
